@@ -1,1 +1,96 @@
+* {
+    font-family: sans-serif;
+}
+body {
 
+    margin: 0px;
+    border: 0px;
+}
+.header-container{
+    
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px; 
+
+    margin: 0px;
+    justify-content: space-between;
+    
+     
+}
+.header-logo h1{
+
+    color:white; 
+    font-size: 40px;
+
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    
+}
+.header-link a{
+    color: #9b9c9e;
+    text-decoration: none;
+}
+.header-link h2{
+    width: 150px;
+    text-align: center;
+    
+    font-size: 15px;
+    flex: 1;
+   
+}
+
+
+
+.chin-container{
+    background-color: #1F2937;
+    margin: 0px;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.sign-up{
+}
+.sign-up h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    flex: 1;
+    margin: 0px;
+   
+    
+}
+.sign-up p{
+    color: white;
+    margin: 0px;
+    padding: 20px 0px;
+}
+.sign-up button{
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: bold;
+    
+}
+.placeholder-image {
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.placeholder-image img{
+    width:  500px;
+    height: auto;
+}
+
+.chest h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
