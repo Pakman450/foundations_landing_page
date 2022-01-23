@@ -94,3 +94,113 @@ body {
     font-weight: bold;
     font-size: 30px;
 }
+
+.knees {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.knees div{
+    
+    width: 150px;
+}
+
+.knees p{
+    text-align: center;
+    color: #9b9c9e;
+}
+.top div{
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    width: 100px;
+    height: 150px;
+    align-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.shins {
+    
+    background-color: #dfdfdf;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px; 
+    display: flex;
+    justify-content: center;
+
+}
+.qoute{
+    margin: 0;
+    padding-left: 120px;
+    padding-right: 120px; 
+}
+
+.shins .qoute{
+    font-size: 40px;
+    width: 750px; 
+    font-style: italic;  
+    font-weight: lighter; 
+}
+
+.by {
+    
+    background-color: #dddddd;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px
+}
+#by-who{
+    margin: 0;
+    font-size: 30px;
+    padding-right: 70px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+.feet{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.huge-button{
+    background-color: #3882F6;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 100px;
+
+}
+
+.huge-button h1{
+    margin-bottom: 0;
+
+}
+.huge-button p{
+    margin-top: 0;
+}
+.huge-button button{
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.toes {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 120px;
+
+}
